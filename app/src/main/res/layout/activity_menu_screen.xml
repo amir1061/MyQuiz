@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuScreen.MenuScreen"
+    android:orientation="horizontal"
+    android:background="@android:color/white"
+    >
+    <!--Menu Layout-->
+<LinearLayout
+    android:id="@+id/menu_lay"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center_vertical"
+    >
+    <ImageView
+        android:layout_width="@dimen/_80sdp"
+        android:layout_height="@dimen/_80sdp"
+        android:src="@drawable/splash"
+        android:layout_gravity="center_vertical|center_horizontal"
+        />
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/squarebutton"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/_50sdp"
+        android:text="@string/on_hold_shipment"
+        android:textColor="@android:color/white"
+        android:fontFamily="@font/montserratlight"
+        />
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/squarebutton"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:text="All Shipments"
+        android:textColor="@android:color/white"
+        android:fontFamily="@font/montserratlight"
+        />
+</LinearLayout>
+
+    <!--Shipment List-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/shipment_lay"
+        android:visibility="gone"
+        >
+        <EditText
+            android:id="@+id/search_ship"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/search"
+            android:layout_margin="@dimen/_10sdp"
+            android:drawableStart="@drawable/ic_search_black_24dp"
+            android:inputType="text"
+            android:maxLines="1"
+            />
+        <ListView
+            android:id="@+id/listview_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:dividerHeight="@dimen/_5sdp"
+            ></ListView>
+    </LinearLayout>
+
+</LinearLayout>

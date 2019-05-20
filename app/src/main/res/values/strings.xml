@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">UbexQuiz</string>
+    <string name="on_hold_shipment">On Hold Shipment</string>
+    <string name="reference">Reference</string>
+    <string name="from">From</string>
+    <string name="status_shipment">Status</string>
+    <string name="created_at">Created_at</string>
+    <string name="deliver_at">Deliver_at</string>
+    <string name="location">Location</string>
+    <string name="search">Search</string>
+</resources>

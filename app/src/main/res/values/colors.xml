@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="green">#45bc62</color>
+
+    <color name="orange">#eaad43</color>
+    <color name="colorBackground">#333C46</color>
+    <color name="colorSplashText">#F0F0F0</color>
+    <color name="colorProgressBar">#FFCE511C</color>
+    <color name="colorTextView">#83898E</color>
+    <color name="webcolor">#84754E</color>
+    <color name="webcolor2">#54585A</color>
+
+    <color name="error_color">#F44336</color>
+    <color name="warning_color">#C6FF00</color>
+    <color name="success_color">#8BC34A</color>
+    <color name="info_color">#607D8B</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="cyan_800">#00838F</color>
+    <color name="whitee">#ffffff</color>
+    <color name="games_screen_bg">#F0F0F0</color>
+    <color name="purple">#6d2b9e</color>
+</resources>
